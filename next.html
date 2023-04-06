@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <audio id="audio1" src="public/y2mate.com - Love Is Blue  Fingerstyle Guitar  TAB.mp3"></audio>
     <div id="trailer"></div>
     <div class="loader" id="loader">
         <img src="public/303180 copy.svg" class="daisies">
@@ -139,6 +140,9 @@
         $(window).on("load", function () {
             $(".loader").fadeOut("slow")
         })
+        setTimeout(function () {
+            document.getElementById('audio1').play();
+        }, 100);
     </script>
 </body>
 
