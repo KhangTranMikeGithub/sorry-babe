@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love you</title>
+    <link rel="stylesheet" href="style_next.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/f707f938ec.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="trailer"></div>
+    <div class="loader" id="loader">
+        <img src="public/303180 copy.svg" class="daisies">
+    </div>
+    <nav>
+        <a href="index.html">
+            <img src="public/303180 copy.svg" class="nav_daisies" href="index.html">
+        </a>
+    </nav>
+    <main>
+        <article data-index="0" data-status="active">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>I will not mention anything about the problematic stuffs I did in the past so you will not recall it.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h1>Don't mention it!</h1>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left dark"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right dark"></i>
+                  </button>
+            </div>
+        </article>
+        
+        <article data-index="1" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>So I don't accidentally talk about stuff that relates you to my past problematic stuff.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h1>I will think before I say something</h1>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left dark"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right dark"></i>
+                  </button>
+            </div>
+        </article>
+
+        <article data-index="2" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>So you don't have to worry about my past problematic stuff.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h1>Be a better version of myself</h1>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left dark"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right dark"></i>
+                  </button>
+            </div>
+        </article>
+
+        <article data-index="3" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>I don't want to be older versions of myself because it causes pain for you and for me.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h1>I changed a lot</h1>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left dark"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right dark"></i>
+                  </button>
+            </div>
+        </article>
+
+        <article data-index="4" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>So your mind will be occupied without thinking about my past problematic stuff.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h1>Spend meaningful time together</h1>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-solid fa-arrow-left dark"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-solid fa-arrow-right dark"></i>
+                  </button>
+            </div>
+        </article>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script>
+        $(window).on("load", function () {
+            $(".loader").fadeOut("slow")
+        })
+    </script>
+</body>
+
+</html>
